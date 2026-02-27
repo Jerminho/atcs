@@ -1,4 +1,4 @@
-import { Droplets, Flame, Zap, ShieldCheck, Check } from "lucide-react"
+import { Droplets, Flame, Zap, Check } from "lucide-react"
 
 export default function Services() {
   const serviceList = [
