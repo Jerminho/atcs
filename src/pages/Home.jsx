@@ -1,5 +1,7 @@
 import { Star, ArrowRight, ShieldCheck } from "lucide-react"
 import { Link } from "react-router-dom"
+// 1. Importeer de afbeelding bovenaan je component
+import atcsImg from '../images/atcs.jpg';
 
 export default function Home() {
   const googleReviewsUrl = "https://www.google.com/search?sca_esv=a46554ff8d764223&rlz=1C1SQJL_nlBE920BE920&biw=1396&bih=663&sxsrf=ANbL-n7enZ-gV7pcwjR7CMp5OhWvbX2FQA:1772203243574&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOYv4zeTAPR3KXHS7Wm_fGhyPfMSfNtiRvhxjzn2NzJoLUIOXrbFSczK-XjJe-Xr9Osw27e6vsOeWRQXHERhz5-TfxAExU16GhC9lAERWM90uHLBHsw%3D%3D&q=Atcs+chauffage+srl+-+plombier+Reviews&sa=X&ved=2ahUKEwiyhbbG8_mSAxVa1gIHHbh_FtUQ0bkNegQIIxAF";
@@ -54,7 +56,7 @@ export default function Home() {
           <div className="relative bg-white p-4 rounded-[2.5rem] shadow-2xl border border-blue-50 rotate-3 transition-transform hover:rotate-0 duration-500">
              <div className="bg-slate-100 h-[500px] w-full rounded-[2rem] flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&q=80" 
+                  src={atcsImg} 
                   alt="Plombier à Mouscron" 
                   className="object-cover h-full w-full opacity-80" 
                 />
